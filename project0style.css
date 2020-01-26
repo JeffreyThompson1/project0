@@ -1,0 +1,27 @@
+
+body{background-color: darkgray;}
+
+.container{background-color: lightgray; 
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;}
+
+h1{color: purple; 
+    text-align: center;}
+
+td{border: 1px solid black;
+    padding: 10px;
+    background-color: white;}
+
+th{border: 2px solid black; 
+    padding: 10px;
+    background-color: lightgray;}
+
+table{border:2px solid black;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;}
+
+h5{vertical-align: bottom;}
+
+a{color: black;}
