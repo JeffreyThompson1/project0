@@ -4,7 +4,7 @@ ENGO 551 - Adv. Topics on Geospatial Technologies
 Jeffrey Thompson 30021871
 
 A website was created for project using git, html, and css.
-***There seems to be a 404 error accessing the homepage using https://jeffreythompson1.github.io/project0/home.html, but using https://jeffreythompson1.github.io/project0/home seems to work fine and I don't know why. If you wish to return to the homepage please enter the latter link.
+***A screen recording of the functionalities of the webpage can be found at https://youtu.be/65PaCM4N5k0.
 
 A checklist of various requirements of the project and where to find them is as follows:
 
