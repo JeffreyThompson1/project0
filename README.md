@@ -3,7 +3,10 @@
 ENGO 551 - Adv. Topics on Geospatial Technologies
 Jeffrey Thompson 30021871
 
-A website was created for project using git, html, and css. A checklist of various requirements of the project and where to find them is as follows:
+A website was created for project using git, html, and css.
+***There seems to be a 404 error accessing the homepage using https://jeffreythompson1.github.io/project0/home.html, but using https://jeffreythompson1.github.io/project0/home seems to work fine and I don't know why. If you wish to return to the homepage please enter the latter link.
+
+A checklist of various requirements of the project and where to find them is as follows:
 
 1.  -Website contains 5 pages: home.html, ds1.html, ds2.html, ds3.html, and bb.html
     -Links to non-home pages exist in the top bar of every page, links to the home page       exist at the bottom of every non-home page
