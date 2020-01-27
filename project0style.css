@@ -1,20 +1,32 @@
 
-body{background-color: darkgray;}
+body{background-color: slategrey;}
 
 .container{background-color: lightgray; 
     padding: 10px;
     text-align: center;
-    border: 2px solid black;}
+    border: 2px solid black;
+}
 
-h1{color: purple; 
+@media (max-width: 575px) {
+    .container{width: 80%;}
+}
+
+.image{text-align: center;}
+
+.title{font-style: italic; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#current{color: white;}
+
+h1{color: indigo; 
     text-align: center;}
+h3{text-align: center;}
 
 td{border: 1px solid black;
     padding: 10px;
     background-color: white;}
 
 th{border: 2px solid black; 
-    padding: 10px;
+    padding: 25px;
     background-color: lightgray;}
 
 table{border:2px solid black;
@@ -25,3 +37,6 @@ table{border:2px solid black;
 h5{vertical-align: bottom;}
 
 a{color: black;}
+a:hover{color: black}
+
+ol li{font-weight: bold;}
