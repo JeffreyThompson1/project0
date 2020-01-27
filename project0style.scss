@@ -1,0 +1,52 @@
+$alignment: center;
+
+%tableformat{
+    border: solid black;
+    padding: 15px;
+}
+
+body{background-color: slategrey;}
+
+.container{background-color: lightgray; 
+    padding: 10px;
+    text-align: $alignment;
+    border: 2px solid black;
+}
+
+@media (max-width: 575px) {
+    .container{width: 80%;}
+}
+
+.image{text-align: $alignment;}
+
+.title{font-style: italic; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#current{color: white;}
+
+h1{color: indigo; 
+    text-align: $alignment;}
+h3{text-align: $alignment;}
+
+td{ @extend %tableformat;
+    border: 1px;
+    background-color: white;}
+
+th{ @extend %tableformat;
+    border: 2px; 
+    background-color: lightgray;}
+
+table{ @extend %tableformat;
+    border: 2px;
+    text-align: $alignment; 
+    margin-left: auto;
+    margin-right: auto;}
+
+h5{vertical-align: bottom;}
+
+a{color: black;}
+a:hover{color: black}
+
+ol {
+    li{font-weight: bold;}
+    p{font-size: smaller;}
+}
